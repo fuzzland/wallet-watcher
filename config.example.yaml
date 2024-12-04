@@ -1,0 +1,35 @@
+chains:
+  # Should be either websocket ws://,wss://, or IPC file file://<PATH TO IPC FILE>
+  eth: <RPC URL to Ethereum node, string>
+  bsc: <RPC URL to BSC node, string>
+
+channels:
+  - bot_token: <Token, string>
+    chat_id: <Chat ID, string>
+    thread_id: <Thread ID, optional, string>
+    wallets:
+      - name: Jared
+        address: 0xae2Fc483527B8EF99EB5D9B44875F005ba1FaE13
+        include_recipient: true
+        # chains:
+        #   - eth
+        #   - bsc
+
+      - name: mmmmMEV
+        address: 0x1a56abf4fe95e21c1704cbd5ffc79ea1effa3cc1
+        include_recipient: true
+
+      - name: Yoink
+        address: 0xfde0d1575ed8e06fbf36256bcdfa1f359281455a
+        builder: 0x229b8325bb9Ac04602898B7e8989998710235d5f
+        other_addresses:
+          - 0x97F0fA1e5bf44F0Dbd8DC5eE5e0d017667aE0C34
+        include_recipient: true
+
+      - name: c0ffeebabe
+        address: 0xc0ffeebabe5d496b2dde509f9fa189c25cf29671
+        builder: 0x25B71878850D008ec4237C55f0A59198BCC72b43
+        other_addresses:
+          - 0x1A5B8Ca288c7dbac0704A6D3e6bB1Bf223FFC742
+        include_recipient: true
+

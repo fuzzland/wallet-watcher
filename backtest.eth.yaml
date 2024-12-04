@@ -1,0 +1,116 @@
+- remark: Profit goes to recipient
+  block: 21212599
+  address: 0xf90029931c7a9a27e350cd35c91cbedbb58350c4
+  report:
+    txs:
+    - 0x1ee075f273eb7283370e02c92990f82a823a1e3ae70fbc128a0d800968e8bfa5:7
+    pnl: '2271257598390627'
+- remark: SCAM Token airdrop
+  block: 21211163
+  address: 0xc0ffeebabe5d496b2dde509f9fa189c25cf29671
+  builder: 0x25b71878850d008ec4237c55f0a59198bcc72b43
+  other_addresses:
+  - 0x1a5b8ca288c7dbac0704a6d3e6bb1bf223ffc742
+  include_recipient: true
+- remark: SCAM Token airdrop
+  block: 21204018
+  address: 0xc0ffeebabe5d496b2dde509f9fa189c25cf29671
+  builder: 0x25b71878850d008ec4237c55f0a59198bcc72b43
+  other_addresses:
+  - 0x1a5b8ca288c7dbac0704a6d3e6bb1bf223ffc742
+  include_recipient: true
+- remark: Multiple txs
+  block: 21203397
+  address: 0xc0ffeebabe5d496b2dde509f9fa189c25cf29671
+  builder: 0x25b71878850d008ec4237c55f0a59198bcc72b43
+  other_addresses:
+  - 0x1a5b8ca288c7dbac0704a6d3e6bb1bf223ffc742
+  include_recipient: true
+  report:
+    txs:
+    - 0x0ebfb3b023be3defeb024e7dad54254c3c9ddfe30d51ec5f31e26811f8248e33:0
+    - 0xec94fb6cdc0f9cfacc01d145ae5e72b3e013c3f4b53d8c1d3a9ca9f184f645a3:1
+    pnl: '8343339083338496'
+- remark: Multiple txs including builder
+  block: 21210775
+  address: 0xc0ffeebabe5d496b2dde509f9fa189c25cf29671
+  builder: 0x25b71878850d008ec4237c55f0a59198bcc72b43
+  other_addresses:
+  - 0x1a5b8ca288c7dbac0704a6d3e6bb1bf223ffc742
+  include_recipient: true
+  report:
+    txs:
+    - 0x1bfc740e65b4adc3557e69dd9e0d6acb1c76800b3f47829f1fecab8361dd7377:2
+    - 0x25a5770902e609ccb8c0385e7ca1b90e59d423842646be1a307ae1bf46be3cf9:130
+    - 0x08b902a8714237252735e1c94ce3e7fedffe644aefbb805ff34d91f93106971e:131
+    pnl: '3926381005758284112'
+    builder_reward: '11143574479588254'
+    validator_bribe: '1711668231233817363'
+- remark: Multiple txs including builder
+  block: 21213222
+  address: 0xc0ffeebabe5d496b2dde509f9fa189c25cf29671
+  builder: 0x25b71878850d008ec4237c55f0a59198bcc72b43
+  other_addresses:
+  - 0x1a5b8ca288c7dbac0704a6d3e6bb1bf223ffc742
+  include_recipient: true
+  report:
+    txs:
+    - 0x03dbaee0071528ec385f8fd04f5c31a09ee43302bd4fd9fe48aef0513f53d70f:0
+    - 0xd3b476273a7d4c0fb6839815b7afcd23286d2088e36292ca5901615c4f11ea1e:334
+    - 0x19bc19ad6ffb048a12858403ed34d3be38deb0f707af94de96605f2caea213ab:335
+    pnl: '543910783620180'
+    builder_reward: '21866357410811781'
+    validator_bribe: '26890992103785881'
+- remark: Block building
+  block: 21216755
+  address: 0xc0ffeebabe5d496b2dde509f9fa189c25cf29671
+  builder: 0x25b71878850d008ec4237c55f0a59198bcc72b43
+  other_addresses:
+  - 0x1a5b8ca288c7dbac0704a6d3e6bb1bf223ffc742
+  include_recipient: true
+  report:
+    txs:
+    - 0x2b2b2009bd1f8b64ff7bd9a9b7c17bfad6a9edb5b89b63d873e4f7338c04e7e7:281
+    - 0x80b2f2fc13784a783078acedaeec6d3da89c1cea62d6a4e59f11d9300d8e8ca5:282
+    pnl: '1663065785680568'
+    builder_reward: '30094657289615796'
+    validator_bribe: '27603170695909228'
+- remark: Yoink
+  block: 21216127
+  address: 0xfde0d1575ed8e06fbf36256bcdfa1f359281455a
+  builder: 0x229b8325bb9ac04602898b7e8989998710235d5f
+  include_recipient: true
+  report:
+    txs:
+    - 0xb1e3bb25656ca750329c95881308f7428d87770403a050ba353dfe277d4ab538:1
+    - 0x61bc2bafc445f7543e81084de11bd15f07c920c5c0d95f0eb651dafd1a4a4909:8
+    - 0xe43a60df9171bb24ccfcff1be8f970a4ff23394def96938cec3cde6462415497:9
+    pnl: '472588221785448'
+    builder_reward: '10809512016613074'
+    validator_bribe: '260402320968507125'
+- remark: Yoink
+  block: 21220628
+  address: 0xfde0d1575ed8e06fbf36256bcdfa1f359281455a
+  builder: 0x229b8325bb9ac04602898b7e8989998710235d5f
+  include_recipient: true
+  report:
+    txs:
+    - 0x862228189a5b1074aa7ef765a7e82f392c1f836d21b9117a364a4fad1c7b7fb5:19
+    pnl: '35188583564960690'
+    token_changes:
+      0x23878914efe38d27c4d67ab83ed1b93a74d4086a: '1'
+- remark: Only block building
+  block: 21276364
+  address: 0xc0ffeebabe5d496b2dde509f9fa189c25cf29671
+  builder: 0x25b71878850d008ec4237c55f0a59198bcc72b43
+  other_addresses:
+  - 0x5aFEc0De001999766fb883860CaE06f5932E6f32
+  - 0x1A5B8Ca288c7dbac0704A6D3e6bB1Bf223FFC742
+  include_recipient: true
+  report:
+    txs:
+    - 0xf631d83941c2cae4f7816f2d2b99e3b8ea7b922cd8bf8e44b77bf5c52f45790d:0
+    - 0x173900e4bd13072af3ac6af74cd2df6bb6e2fa5e3d88dbd1b9eac576f02448b2:1
+    - 0x9892ef8692e5bae31b449c301317f21f7243cfcd201921be0a78bfe7f3d3c3ce:2
+    pnl: '9640619687254032'
+    validator_bribe: '203338741228571683'

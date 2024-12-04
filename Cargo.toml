@@ -1,0 +1,26 @@
+[package]
+name = "wallet-watcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy-chains = { version = "0.1", features = ["serde"] }
+alloy = { version = "0.4", features = [
+    "contract",
+    "provider-http",
+    "provider-ws",
+    "provider-ipc",
+    "rpc-types",
+    "rpc-types-debug",
+    "rpc-types-trace",
+] }
+burberry = { git = "https://github.com/tonyke-bot/burberry.git", rev = "552b3fe" }
+clap = { version = "4.4", features = ["derive", "env"] }
+eyre = "0.6"
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+num_cpus = "1.16.0"
+serde_with = "3.11.0"
